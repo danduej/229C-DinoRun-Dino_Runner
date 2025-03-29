@@ -12,6 +12,3 @@ public class Masternfo : MonoBehaviour
         coinDisplay.GetComponent<TMPro.TMP_Text>().text = "COINS: " + coinCount;
     }
 }
-
-
-
