@@ -18,5 +18,5 @@ public class ExitsControl : MonoBehaviour
     public void Exits()
     {
         SceneManager.LoadScene(0);
-    }
+    }//เป็นคำลั่งที่ให้ปุ่มExits กลับไปยังSceneMenuที่เลือก
 }

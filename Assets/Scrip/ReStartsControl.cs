@@ -18,5 +18,5 @@ public class ReStartsControl : MonoBehaviour
     public void ReStarts()
     {
         SceneManager.LoadScene(1);
-    }
+    }//เป็นคำลั่งที่ให้ปุ่มReStart กลับไปยังSceneGamePlayที่เลือก
 }

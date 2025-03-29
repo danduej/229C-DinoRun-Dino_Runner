@@ -18,6 +18,6 @@ public class EndCreditsContro : MonoBehaviour
     public void EndCredits()
     {
         SceneManager.LoadScene(0);
-    }
+    }//เป็นคำลั่งที่ให้ปุ่มBackหน้าEndCredits กลับไปยังSceneMenuที่เลือก
 }
 

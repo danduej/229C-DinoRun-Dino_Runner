@@ -18,5 +18,5 @@ public class MainMenuControl : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(1);
-    }
+    }//เป็นคำลั่งที่ให้ปุ่มStartGame กลับไปยังSceneGamePlayที่เลือก
 }
