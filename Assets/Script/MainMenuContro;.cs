@@ -5,18 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuControl : MonoBehaviour
 {
-    void Start()
+    void StartGame()
     {
-
+        SceneManager.LoadScene("DinoRun");
     }
 
-    void Update()
+    void QuitGame()
     {
-
+        Debug.Log("Quit Game");
+        Application.Quit();
     }
-
-    public void StartGame()
-    {
-        SceneManager.LoadScene(1);
-    }//เป็นคำลั่งที่ให้ปุ่มStartGame กลับไปยังSceneGamePlayที่เลือก
 }
