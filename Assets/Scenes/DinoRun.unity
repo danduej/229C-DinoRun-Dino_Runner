@@ -516,6 +516,8 @@ MonoBehaviour:
   collisionFX: {fileID: 0}
   mainCam: {fileID: 0}
   fadeout: {fileID: 0}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &49617342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -919,6 +921,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &90834161
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1078,7 +1082,7 @@ GameObject:
   - component: {fileID: 117869316}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1220,6 +1224,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &130062741
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2158,7 +2164,7 @@ GameObject:
   - component: {fileID: 173927638}
   m_Layer: 0
   m_Name: Segment (2)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3112,6 +3118,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &235698936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3624,7 +3632,7 @@ GameObject:
   - component: {fileID: 308353662}
   m_Layer: 0
   m_Name: Segment
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4010,6 +4018,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &321910249
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5406,6 +5416,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &513927515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5805,6 +5817,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &521118471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6806,7 +6820,7 @@ GameObject:
   - component: {fileID: 606911967}
   m_Layer: 0
   m_Name: End Credit
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7030,6 +7044,8 @@ MonoBehaviour:
   collisionFX: {fileID: 0}
   mainCam: {fileID: 0}
   fadeout: {fileID: 0}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &614122307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7667,6 +7683,8 @@ MonoBehaviour:
   collisionFX: {fileID: 0}
   mainCam: {fileID: 0}
   fadeout: {fileID: 0}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &655792187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12440,6 +12458,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &1082666050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12808,6 +12828,8 @@ MonoBehaviour:
   collisionFX: {fileID: 0}
   mainCam: {fileID: 0}
   fadeout: {fileID: 0}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &1099207950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12844,7 +12866,7 @@ GameObject:
   - component: {fileID: 1101736113}
   m_Layer: 0
   m_Name: Tree2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12957,6 +12979,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!1001 &1109721259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14677,7 +14701,7 @@ GameObject:
   - component: {fileID: 1264778133}
   m_Layer: 0
   m_Name: Dino
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15695,6 +15719,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &1324607302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16409,7 +16435,7 @@ GameObject:
   - component: {fileID: 1371902100}
   m_Layer: 0
   m_Name: Audio
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18416,6 +18442,8 @@ MonoBehaviour:
   collisionFX: {fileID: 0}
   mainCam: {fileID: 0}
   fadeout: {fileID: 0}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &1593714342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20249,6 +20277,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &1753714574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20624,7 +20654,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cab7cb26d28ae5343809ffdb2dae9a07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20663,8 +20693,8 @@ Transform:
   m_GameObject: {fileID: 1796138975}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.24072756, w: 0.9705928}
-  m_LocalPosition: {x: 7.75, y: 2.31, z: -10.14}
-  m_LocalScale: {x: 4.2802215, y: 0.32375628, z: 1.1768}
+  m_LocalPosition: {x: 16.41, y: 8.28, z: -6.050004}
+  m_LocalScale: {x: 7.4980917, y: 0.32375628, z: 4.872305}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -20760,11 +20790,9 @@ GameObject:
   - component: {fileID: 1818108152}
   - component: {fileID: 1818108156}
   - component: {fileID: 1818108151}
-  - component: {fileID: 1818108158}
-  - component: {fileID: 1818108157}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Untagged
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20781,7 +20809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44cea6cad316d4f499b68590c98f0597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceAmount: 500
+  forceAmount: 5000
 --- !u!135 &1818108152
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -20797,7 +20825,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20865,8 +20893,8 @@ Transform:
   m_GameObject: {fileID: 1818108150}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -26.09049, y: -32.78, z: 103.56}
-  m_LocalScale: {x: 1.6805997, y: 1.6805999, z: 1.6805999}
+  m_LocalPosition: {x: -32.24, y: -23.3, z: 99.47}
+  m_LocalScale: {x: 3.7840383, y: 3.7840388, z: 3.7840388}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 173927638}
@@ -20898,30 +20926,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1818108157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818108150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fd7dc8a38421bd468bd4554c44f0ada, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1818108158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818108150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e90d6eb2bbcf88548a8ef40ddab0e4f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1823026825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21020,6 +21024,8 @@ MonoBehaviour:
   collisionFX: {fileID: 0}
   mainCam: {fileID: 0}
   fadeout: {fileID: 0}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!1001 &1835493373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21582,6 +21588,8 @@ MonoBehaviour:
   collisionFX: {fileID: 0}
   mainCam: {fileID: 0}
   fadeout: {fileID: 0}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &1887743922
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22715,6 +22723,8 @@ MonoBehaviour:
   collisionFX: {fileID: 2064612859}
   mainCam: {fileID: 963194225}
   fadeout: {fileID: 623374342}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!114 &2042095910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23127,7 +23137,7 @@ GameObject:
   - component: {fileID: 2062327385}
   m_Layer: 0
   m_Name: LevelControls
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23776,6 +23786,8 @@ MonoBehaviour:
   collisionFX: {fileID: 0}
   mainCam: {fileID: 0}
   fadeout: {fileID: 0}
+  rollingRock: {fileID: 0}
+  rockRb: {fileID: 0}
 --- !u!65 &2116667211
 BoxCollider:
   m_ObjectHideFlags: 0

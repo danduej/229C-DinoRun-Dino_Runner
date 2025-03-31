@@ -3,28 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CollectDeti : MonoBehaviour
+public class add : MonoBehaviour
 {
     [SerializeField] GameObject thePlayer;
     [SerializeField] GameObject playerAnim;
     [SerializeField] AudioSource collisionFX;
     [SerializeField] GameObject mainCam;
     [SerializeField] GameObject fadeout;
-    [SerializeField] GameObject rollingRock; // อ้างอิงไปยังหินใน Inspector
-    [SerializeField] Rigidbody rockRb; // Rigidbody ของหิน
-    void OnTriggerEnter(Collider other)
+    [SerializeField] GameObject rock1;
+    [SerializeField] Rigidbody rockRb;
+    void OnCollisionEnter(Collision collision)
     {
-            StartCoroutine(CollisionEnd());
+        Debug.Log("Collision detected with: " + collision.gameObject.name);
 
-    }
-    void StartRockRolling()
-    {
-        if (rockRb != null)
+        // ตรวจสอบว่าชนกับ Player หรือไม่
+        if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Rock is now rolling!");
-            rockRb.isKinematic = false; // ปลดล็อกฟิสิกส์ของหิน
-            rockRb.useGravity = true; // เปิดใช้งานแรงโน้มถ่วง
-            rockRb.AddForce(Vector3.forward * 5, ForceMode.Impulse); // ใช้แรงผลักให้หินกลิ้งไปข้างหน้า
+            StartCoroutine(CollisionEnd());
+            rockRb.isKinematic = false;
+            rockRb.AddForce(Vector3.left * 5, ForceMode.Impulse);
         }
     }
     IEnumerator CollisionEnd()
@@ -57,5 +54,3 @@ public class CollectDeti : MonoBehaviour
     }
 
 }
-
-
